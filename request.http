@@ -1,0 +1,25 @@
+POST http://localhost:8001/products
+Content-Type: application/json
+
+{
+    "name": "Lápis Azul",
+    "price": 1.99
+}
+
+###
+PUT http://localhost:8001/products/ed53f611-d7e2-4831-a73f-f9864966023e
+Content-Type: application/json
+
+{
+    "name": "Lápis Vermelho",
+    "price": 1.49
+}
+
+###
+DELETE http://localhost:8001/products/dcfe310b-e6f7-467c-97ac-adc30f062660
+
+###
+GET http://localhost:8001/products
+
+####
+GET http://localhost:8001/products/cbdcb64e-5229-4be5-bec8-41b33365dc4a
